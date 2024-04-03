@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SASS Activity</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamberger.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class="times"><img src="./images/times.svg" alt=""></button>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#developer">Developers</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        
+        <header>
+            <nav id="main-nav" class="flex items-center justify-between">
+                <div class="left flex items-center">
+                    <div class="branding">
+                        <img src="./images/logo.png" alt="" width="80px" height="80px ">
+                    </div>
+                    <div>    
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#developer">Developers</a>
+                        <a href="#gallery">Gallery</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/intro.png" alt="">
+                    </div>
+                    <div id="home"class="right flex-1">
+                        <h6>We're Russel Gue & Angelyn</h6>
+                        <h1>This is our <span> <br>SASS Activity</span></h1>
+                        <p>SASS, short for Syntactically Awesome Style Sheets, is a powerful extension of CSS (Cascading Style Sheets) that adds functionality and efficiency to front-end web development. In this activity, participants will dive into the world of SASS and explore its features, benefits, and practical applications.</p>
+                        <div>
+                            <button class="btn btn-secondary"><a href="#about">SEE MORE</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap ">
+                <div class="flex-1">
+                    <img class="about-me-img" src="./images/Sass logo.png " alt="" height="100%" width="90%">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About <span>SASS</span></h1>
+                    <p>
+                        Stands for Syntactically Awesome Style Sheets.It is a CSS preprocessor that gives your CSS
+                        superpowers,designed by Hampton Catlin and developed by
+                        Natalie Weizenbaum in 2006.
+                    </p>
+                    
+                </div>
+            </div>
+
+        </section>
+        <section id="school" class="school">
+            <div class="container">
+                <h1 class="section-heading"><span>Why use </span>SASS?</h1>
+                <p>This are the list of why use SASS.</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/css3-alt.svg" alt="">
+                        <h2>Easy to learn</h2>
+                        <p>
+                            Sass actually has a similar syntax to CSS
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/css3-alt.svg" alt="">
+                        <h2>Compatibility</h2>
+                        <p>
+                            It is compatible with all versions of CSS. So, you can use any available CSS libraries.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/css3-alt.svg" alt="">
+                        <h2>Graphic Design</h2>
+                        <p>There are many variations of passages of but the majority have suffered alteration in some
+                            form.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/css3-alt.svg" alt="">
+                        <h2>Saves time</h2>
+                        <p>
+                            It helps reduce the repetition of CSS, because of its powerful features.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/css3-alt.svg" alt="">
+                        <h2>Reusable code</h2>
+                        <p>
+                            Sass allows for variables and chunks of code (mixins) that can be reused over and over again. This helps you save time and makes you able to code faster.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/css3-alt.svg" alt="">
+                        <h2>Organized Code</h2>
+                        <p>
+                            Sass helps keep your code organized by using partials.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="instructor">
+            <div class="container ">
+                <h1 class="section-heading"><span>Our</span> Instructor</h1>
+                <div class="slider">
+                    <div class="slide" style="margin-top: 10px;">
+                        <img src="./images/instructor.jpg" alt="">
+                        <span>- Juliet Paulo</span><br>
+                        <p>She is an exemplary educator, admired by both students and colleagues alike. With a wealth of knowledge in her subject area and years of experience under her belt, she brings a contagious enthusiasm to the classroom each day.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="developer" class="developer">
+            <div class="container">
+                <h1 class="section-heading"><span>The</span> Developers</h1>
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/russel.jpg" alt="" style="height: 535px;">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Russel Gue Caponga</h1>
+                            </a>
+                            <span>3rd Year, BSIT student</span>
+                            <p>Programming isn't my forte, and I'll be the first to admit it. But that doesn't mean I'm content with staying in my comfort zone. Every bug I encounter, every line of code that doesn't quite work, is a lesson in resilience and problem-solving. And with each small victory – no matter how insignificant it may seem to others – I'm reminded that progress is not always measured in lines of flawless code, but in the determination to keep pushing forward.
+
+                                Yet, amidst the hours spent staring at my screen, wrestling with algorithms and debugging, there's a beacon of light that keeps me grounded: my family and friends. They are my sanctuary, my refuge from the frustrations of the digital world. .</p>
+                            
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/angie.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Angelyn Adriosula</h1>
+                            </a>
+                            <span>3rd Year, BSIT student</span>
+                            <p>From a young age, I've been drawn to the fascinating world of technology. The idea of creating something out of nothing, of bringing my ideas to life through lines of code, captivates me like nothing else. Programming isn't just a hobby for me; it's a way of life, a medium through which I can express myself and make a tangible impact on the world around me.
+
+                                But amidst my pursuit of knowledge and mastery in programming, I never lose sight of what truly matters to me: my family and friends. They are my pillars of strength, my source of inspiration, and my greatest supporters. No matter how busy life gets, I always make it a point to carve out time for them, whether it's sharing a meal together, going on adventures, or simply enjoying each other's company.</p>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Gallery</h1>
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Me</span>
+                            <a href="#">Russel Gue Caponga</a>
+                        </div>
+                        <img src="./images/me.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>My Family</span>
+                            <a href="#">The most important people in my life.</a>
+                        </div>
+                        <img src="./images/fam.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>My Friends</span>
+                            <a href="#">The people that are always there for me.</a>
+                        </div>
+                        <img src="./images/friends.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Me</span>
+                            <a href="#">Angelyn Adriosula</a>
+                        </div>
+                        <img src="./images/angie.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>My Family</span>
+                            <a href="#">The most important people in my life.</a>
+                        </div>
+                        <img src="./images/fam2.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>My Friends</span>
+                            <a href="#">The people I treasure the most.</a>
+                        </div>
+                        <img src="./images/friends2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h1 class="section-heading">Contact <span>Us</span></h1>
+                <p>We provide high standar clean website for your business solutions</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/phone-call.svg" alt="">
+                        <h1>Call Us On</h1>
+                        <h6>+985 123 7856</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/envelope-dot.svg" alt="">
+                        <h1>Email Us At</h1>
+                        <h6>russelguedeguzmangc.com</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/house-chimney.svg" alt="">
+                        <h1>Visit @School</h1>
+                        <h6>ISPSC Tagudin Campus</h6>
+                    </div>
+
+                </div>
+
+                <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name *">
+                        <input type="email" placeholder="Your Email *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject...">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/"><img src="./images/facebook.svg" alt=""></a>
+                <a href="https://twitter.com/?lang=en"> <img src="./images/twitter.svg" alt=""></a>
+                <a href="https://www.pinterest.ph/"> <img src="./images/pinterest.svg" alt=""></a>
+                <a href="https://www.instagram.com/"> <img src="./images/instagram.svg" alt=""></a>
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
